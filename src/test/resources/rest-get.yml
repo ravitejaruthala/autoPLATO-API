@@ -1,0 +1,10 @@
+parallelExecution: 1
+timeout:  1
+apiExecutor:
+  - reportTitle: "REST GET Example"
+    env: test
+    outputDir: src/test/features
+    inputExcel: rest/Regres.xlsx
+    outputJsonDir: target/idaithalam
+    cucumblanProperties:
+      service.api.ep: https://reqres.in

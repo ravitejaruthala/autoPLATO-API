@@ -1,0 +1,24 @@
+[{
+    "outputFields": {"total": "12"},
+    "requestType": "REST",
+    "method": "GET",
+    "scenario": "List Users",
+    "resource": "ep",
+    "availableParams": [
+        {
+            "parameterType": "HEADER_PARAM",
+            "value": "application/json",
+            "key": "contentType"
+        },
+        {
+            "parameterType": "QUERY_PARAM",
+            "value": "2",
+            "key": "page"
+        }
+    ],
+    "contentType": "application/json",
+    "scenarioId": "Test one-GET",
+    "url": "/api/users",
+    "tags": "@Get",
+    "httpStatusCode": "200"
+}]

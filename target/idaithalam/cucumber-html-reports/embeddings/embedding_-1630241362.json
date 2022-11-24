@@ -1,0 +1,6 @@
+{
+    "AcceptContentType": "application/json",
+    "resource": "https://reqres.in/api/users",
+    "context": {},
+    "url": "https://reqres.in"
+}
