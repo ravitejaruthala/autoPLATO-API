@@ -5,6 +5,6 @@ apiExecutor:
     env: test
     outputDir: src/test/features
     inputExcel: rest/Regres.xlsx
-    outputJsonDir: target/idaithalam
+    outputJsonDir: target/apiframework
     cucumblanProperties:
       service.api.ep: https://reqres.in
